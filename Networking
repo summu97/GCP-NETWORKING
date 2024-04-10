@@ -1,0 +1,68 @@
+*Three-way hand-shake:
+  When two devices want to establish a TCP connection, they go through a three-way handshake process:
+
+* SYN: One device sends a signal to another saying, "Hey, let's talk!"
+* SYN-ACK: The other device responds, saying, "Sure, let's talk! I got your message."
+* ACK: The first device confirms, "Great, I got your response! Let's start talking."
+
+* SYN (Synchronize): It's like saying "Hi, I want to tallk to you.
+                  
+* ACK (Acknowledgment): It's like saying "Got it, let's talk!" in response to someone's invitation to talk you sent.
+
+Both SYN and ACK flags are transmission control protocal headers that helps establish safer communication between devices, these flags contin individual bits within the TCP header.  
+
+Other TCP flags include:
+
+* FIN (Finish): Signals the end of data transmission from one side of the connection.
+* RST (Reset): Resets the connection abruptly, often due to an error or unexpected situation.
+* PSH (Push): Requests immediate delivery of data to the receiving application.
+* URG (Urgent): Indicates that the data within the segment is urgent and should be prioritized.
+---------------------------------
+Economic Advantages of Google Cloud’s Advanced Networking Services:
+
+Work reliably: It should always be available and able to recover quickly from any issues.
+Be fast: It should transmit data quickly, especially for things like video calls or large file transfers.
+Grow easily: It should be able to handle more users or data as needed without slowing down.
+Stay secure: It should protect against hackers and keep data safe.
+Be easy to manage: It should be simple to set up, monitor, and fix if anything goes wrong.
+Adapt to changes: It should be able to adjust to new technologies or ways of working without needing a complete overhaul.
+Not cost too much: It should provide value for money and not require a huge budget to run.
+---------------------------------
+Network: Collection of connected divices that are connected to each other via physical or logical connection.
+Fiber optic cable: Cable that transmits data in th form of light.
+Internet: Vast empty space that consists of different networks.
+
+Region: Geographical location where cloud providers have their data centers.
+Zone: Isolated loaction in a region that have their own power and network.
+POP(Point of Presence): connection point from internet to google's network.
+On-prem: Data centers belonging to enterprise.
+
+VPC(Virtual Private Cloud): logical representation of on-prem. In GCP it is global construct.
+There are two modes of VPC in GCP:
+  * Custom mode
+  * Auto mode
+Subnets: These are regional in GCP.
+IP address: A unique set of numbers to identify a device in internet.
+it is 32 bit size(4 octet):  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
